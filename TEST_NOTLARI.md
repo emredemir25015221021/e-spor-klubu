@@ -13,4 +13,4 @@ Etkinlik başlıkları: Valorant Kampüs Turnuvası, League of Legends 5v5 Maç�
 | 6 | 390 px genişlik + Tab tuşu | Yatay kaydırma çıkmaz; Tab ile arama kutusuna ve Temizle düğmesine ulaşılır | | |
 
 ## Bulunan sorunlar ve düzeltmeler
-<!-- Varsa yazın; yoksa "Sorun bulunmadı." -->
+
