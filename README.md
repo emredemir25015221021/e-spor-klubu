@@ -1,6 +1,6 @@
 # Kampüs E-Spor Kulübü Web Sitesi
 
-**Repository bağlantısı:** https://github.com/KULLANICI_ADINIZ/REPO_ADI
+**Repository bağlantısı:** https://github.com/emredemir25015221021/e-spor-klubu
 
 ## Projenin amacı
 Kampüs E-Spor Kulübü için hazırlanmış üç sayfalık, yapay zekâ destekli bir sitedir. Turnuva ve etkinlik başlıklarında canlı arama yapılabilir. Backend, veritabanı, API ve kullanıcı girişi yoktur; arama tarayıcıda JavaScript ile çalışır.
