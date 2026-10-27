@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Etkinlikler | Kampüs E-Spor Kulübü</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="ust"><div class="ust-ic">
+<a class="logo" href="index.html">Kampüs E-Spor Kulübü</a>
+<nav aria-label="Ana menü"><ul>
+<li><a href="index.html">Ana Sayfa</a></li>
+<li><a href="etkinlikler.html" aria-current="page">Etkinlikler</a></li>
+<li><a href="hakkimizda.html">Hakkımızda</a></li>
+</ul></nav></div></header>
+<main>
+<h1>Etkinlikler</h1>
+<section class="arama" aria-label="Etkinlik arama">
+<label for="arama-kutusu">Etkinlik başlığında ara</label>
+<div class="arama-satir">
+<input type="text" id="arama-kutusu" placeholder="Örn. Valorant, turnuva, atölye" autocomplete="off">
+<button type="button" id="temizle" class="dugme">Temizle</button>
+</div>
+<p class="sayac" id="sayac" role="status" aria-live="polite"></p>
+</section>
+<p class="mesaj gizli" id="bos-mesaj" role="alert">Aramanızla eşleşen etkinlik bulunamadı. Başka bir kelime deneyin veya Temizle düğmesine basın.</p>
+<ul class="kartlar" id="kartlar">
+<li class="kart"><h3>Valorant Kampüs Turnuvası</h3><dl><dt>Tarih:</dt><dd>7 Kasım 2026</dd><dt>Yer:</dt><dd>Genclik Merkezi E-Spor Salonu</dd></dl><p>5 kişilik takımlar tek eleme usulüyle yarışıyor. Kazanan takıma kupa ve oyuncu ekipmanı veriliyor.</p></li>
+<li class="kart"><h3>League of Legends 5v5 Maçı</h3><dl><dt>Tarih:</dt><dd>14 Kasım 2026</dd><dt>Yer:</dt><dd>Genclik Merkezi E-Spor Salonu</dd></dl><p>Fakülteler arası dostluk maçı. Maç sonrası oyun içi stratejiler üzerine kısa bir değerlendirme yapılıyor.</p></li>
+<li class="kart"><h3>CS2 Dostluk Maçı</h3><dl><dt>Tarih:</dt><dd>21 Kasım 2026</dd><dt>Yer:</dt><dd>Genclik Merkezi E-Spor Salonu</dd></dl><p>Yeni başlayanlar ve deneyimli oyuncular karışık takımlarda oynayarak birbirinden öğreniyor.</p></li>
+<li class="kart"><h3>EA FC Kampüs Kupası</h3><dl><dt>Tarih:</dt><dd>28 Kasım 2026</dd><dt>Yer:</dt><dd>Genclik Merkezi E-Spor Salonu</dd></dl><p>Konsol başında bire bir eleme maçları. Seyirci olarak katılmak da serbest.</p></li>
+<li class="kart"><h3>Oyun Geliştirme Atölyesi</h3><dl><dt>Tarih:</dt><dd>5 Aralık 2026</dd><dt>Yer:</dt><dd>Genclik Merkezi E-Spor Salonu</dd></dl><p>Kendi küçük oyununu yapmak isteyenler için temel oyun tasarımı ve kodlama tanıtımı.</p></li>
+<li class="kart"><h3>Yayıncılık ve Caster Eğitimi</h3><dl><dt>Tarih:</dt><dd>12 Aralık 2026</dd><dt>Yer:</dt><dd>Genclik Merkezi E-Spor Salonu</dd></dl><p>Maç anlatımı, canlı yayın kurulumu ve içerik üretimi üzerine uygulamalı eğitim.</p></li>
+</ul>
+</main>
+<footer class="alt">BPR201 İnternet Tabanlı Programlama – Emre Demir 25015221021</footer>
+<script src="script.js"></script></body></html>
